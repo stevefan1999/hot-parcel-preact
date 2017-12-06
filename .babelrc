@@ -1,8 +1,17 @@
 {
   "presets": [
-    "react"
+    "react",
+	"env"
   ],
   "plugins": [
-    "react-hot-loader/babel"
+	["module-resolver", {
+      "root": ["."],
+      "alias": {
+        "react": "preact-compat",
+        "react-dom": "preact-compat",
+		"create-react-class": "preact-compat/lib/create-react-class"
+      }
+    }],
+	"react-hot-loader/babel"
   ]
 }

@@ -1,38 +1,12 @@
-import React from 'react'
-
-class App extends React.Component {
-
-  constructor () {
-    super()
-    this.state = {
-      foo: ''
-    }
-  }
-
-  onClick () {
-    this.setState({foo: 'clicked'})
-  }
-
-  componentDidMount () {
-    this.setState({
-      foo: 'baz'
-    })
-  }
-
-  componentWillUnmount () {
-    alert('I knew Dan and Devon lied about hot reloading.')
-  }
-
+import React, { Component } from 'react'
+class App extends Component {
   render () {
-
     return (
       <div>
-        <h2>Current state: {this.state.foo}</h2>
-        <button onClick={this.onClick.bind(this)}>change state</button>
+		<h1>Hello World</h1>
       </div>
     )
   }
-
 }
 
-export { App }
+export default App
