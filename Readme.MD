@@ -1,4 +1,4 @@
-# React Parcel Example with hot reload
+# Preact Parcel Example with hot reload
 
 Example App bundled with [Parcel Bundler](https://parceljs.org)
 
@@ -6,8 +6,8 @@ Example App bundled with [Parcel Bundler](https://parceljs.org)
 
 Clone and install deps
 ```
-git clone git@github.com:albinotonnina/hot-parcel-react.git
-cd hot-parcel-react
+git clone git@github.com:stevefan1999/hot-parcel-preact.git
+cd hot-parcel-preact
 yarn 
 yarn start
 ```
