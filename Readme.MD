@@ -6,7 +6,7 @@ Example App bundled with [Parcel Bundler](https://parceljs.org)
 
 Clone and install deps
 ```
-git clone git@github.com:stevefan1999/hot-parcel-preact.git
+git clone https://github.com/stevefan1999/hot-parcel-preact
 cd hot-parcel-preact
 yarn 
 yarn start
